@@ -1,1 +1,51 @@
+# 計算機專題 (Calculator Project)
+
+## 組別資訊
+- 組別：第二組
+- 系級：資工1A
+
+## 組員資訊
+- 組長:張定翔
+- 組員:陳柏融、阮清田
+
+## 小專題題目
+- 計算機 (支援加、減、乘、除、平方、平方根)
+
+## 系統功能說明
+- 基本四則運算
+- 一元運算（平方、平方根）
+- 運算結果顯示與更新
+
+## 程式介紹
+### 類別與方法
+- **Calculator**：主控制類
+- **Operation (抽象類別)**：定義 `execute()` 方法
+- **Add/Subtract/Multiply/Divide**：繼承 Operation，實作二元運算
+- **Square/SquareRoot**：繼承 Operation，實作一元運算
+- **Result**：顯示與儲存結果
+
+## 程式使用方式
+1. 輸入第一個數字
+2. 選擇運算類型
+3. 輸入第二個數字（若為二元運算）
+4. 顯示結果並更新 `currentValue`
+
+## 程式安裝與執行方式
+- 編譯方式：
+  ```bash
+  g++ src/*.cpp -I include -o calculator
+  ./calculator
+- 執行流程:
+  1. 輸入第一個數字
+  2. 選擇運算類型
+  3. 輸入第二個數字（若為二元運算）
+  4. 顯示結果並更新 `currentValue`
+- 依賴環境:
+  任一可執行C++語言之編譯器
+
+## 運行畫面:
+
+## UML圖片
 ![UML 類別圖](docs/uml_class_diagram.svg)
+
+## 分工資訊:
