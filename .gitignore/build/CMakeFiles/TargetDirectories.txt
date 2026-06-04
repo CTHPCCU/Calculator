@@ -1,3 +1,0 @@
-C:/vscode_program/Calculater_PCCU/build/CMakeFiles/main.dir
-C:/vscode_program/Calculater_PCCU/build/CMakeFiles/edit_cache.dir
-C:/vscode_program/Calculater_PCCU/build/CMakeFiles/rebuild_cache.dir
