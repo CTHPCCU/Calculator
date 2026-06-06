@@ -8,13 +8,25 @@ double Calculator::compute(const Operation& op, double a, double b) {
     return val;
 }
 
+double Calculator::computeSilent(const Operation& op, double a, double b) {
+    return op.calculate(a, b);
+}
+
 double Calculator::compute(const Operation& op, double a) {
     double val = op.calculate(a);
     result.setValue(val);
     return val;
 }
 
+double Calculator::computeSilent(const Operation& op, double a) {
+    return op.calculate(a);
+}
+
 const Result& Calculator::getResult() const {
+    return result;
+}
+
+Result& Calculator::getResult() {
     return result;
 }
 
