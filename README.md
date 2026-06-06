@@ -58,7 +58,7 @@
 
 ### UML 圖
 
-![UML 類別圖](docs\calculator_uml_fixed2.svg)
+![UML 類別圖](docs\calculator_uml.svg)
 
 ## 六、程式安裝與執行方式
 
@@ -108,8 +108,8 @@ calculator.exe
 ```
 
 ## 七、程式畫面截圖
-![程式執行畫面1](docs/program1.png)
-![程式執行畫面2](docs/program2.png)
+![程式畫面截圖](docs/program1.png)
+![程式畫面截圖](docs/program2.png)
 
 ## 八、分工資訊
 
