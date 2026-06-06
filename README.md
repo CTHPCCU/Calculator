@@ -58,7 +58,7 @@
 
 ### UML 圖
 
-![UML 類別圖](docs/calculator_uml.png)
+![UML 類別圖](docs\calculator_uml_fixed2.svg)
 
 ## 六、程式安裝與執行方式
 
