@@ -1,6 +1,6 @@
 #pragma once
 #include "Result.h"
-#include "Operation.h"
+#include "Operations/Operation.h"
 
 class Calculator {
 private:
