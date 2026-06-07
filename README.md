@@ -82,13 +82,7 @@ g++ -std=c++11 -o calculator.exe main.cpp Calculator.cpp Result.cpp InputParser.
 **Windows**
 
 ```bat
-calculator.exe
-```
-
-**macOS / Linux**
-
-```bash
-./calculator
+./calculator.exe
 ```
 
 執行後畫面如下：
@@ -115,5 +109,5 @@ calculator.exe
 
 | 組員 | 開發內容 | 貢獻比例 |
 |------|----------|----------|
-| 張定翔 | 程式設計、進度追蹤與最終整合、專案文件（README）撰寫、PPT | 50% |
+| 張定翔 | 程式設計、進度追蹤與最終整合、github撰寫、PPT | 50% |
 | 陳柏融 | 核心運算邏輯實作，類別設計與函式開發 | 50% |
