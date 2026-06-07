@@ -86,6 +86,6 @@ double ExprEvaluator::evaluate(const std::vector<double> &nums,
 
     double finalResult = numStack.top();
     // 只在這裡記錄一次最終結果
-    calc.getResult().setValue(finalResult); // ← 但 getResult() 是 const，需改一下
+    calc.getResult().setValue(finalResult); 
     return finalResult;
 }
