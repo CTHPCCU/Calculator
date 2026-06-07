@@ -67,7 +67,7 @@ void InputParser::parseExpression(const std::string &input)
             while (k < input.size() && (isdigit(input[k]) || input[k] == '.'))
                 k++;
             if (k == j)
-                return; // s/r 後面沒有數字，格式錯誤
+                return; // s or r 後面沒有數字，格式錯誤
             try
             {
                 double n = std::stod(input.substr(j, k - j));
